@@ -62,7 +62,7 @@ class MealDetailScreen extends StatelessWidget {
                         child: Text('#${index + 1}')),
                     title: Text(selectedMeal.steps[index]),
                   ),
-                  Divider(indent: ,)
+                  Divider()
                 ],
               ),
               itemCount: selectedMeal.steps.length,
